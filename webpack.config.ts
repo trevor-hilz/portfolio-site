@@ -4,7 +4,7 @@ import 'webpack-dev-server'; // Import this to ensure types are recognized
 
 const config: webpack.Configuration = {
   mode: 'development', // or 'production'
-  entry: './client/src/index.ts',
+  entry: './client/src/Index.tsx',
   devtool: 'inline-source-map',
   module: {
     rules: [

@@ -1,23 +1,21 @@
 {
   "compilerOptions": {
-    "target": "es5", // Specify ECMAScript target version
-    "module": "es6", // Specify module code generation
-    "lib": ["dom", "dom.iterable", "esnext"], // Specify library files to be included in the compilation
-    "allowJs": true, // Allow JavaScript files to be compiled
-    "jsx": "react-jsx", // Specify JSX code generation ('react-jsx' for React 17+)
-    "noEmit": true, // Do not emit outputs (Webpack will handle the output)
-    "strict": true, // Enable all strict type-checking options
-    "moduleResolution": "node", // Use Node.js module resolution
-    "resolveJsonModule": true, // Include modules imported from .json files
-    "esModuleInterop": true, // Enables ES6-style imports from CommonJS modules
-    "skipLibCheck": true, // Skip type checking for all declaration files (*.d.ts)
-    "forceConsistentCasingInFileNames": true // Disallow inconsistently-cased references to the same file
+    "target": "ES2017",
+    "module": "CommonJS",
+    "lib": ["dom", "dom.iterable", "esnext"],
+    "allowJs": true,
+    "jsx": "react-jsx",
+    "noEmit": false,
+    "strict": true,
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
   },
-  "include": [
-    "/client/src" // Files to be included in the compilation
-  ],
-  "exclude": [
-    "node_modules", // Files or folders to be excluded from the compilation
-    "build"
-  ]
+  "ts-node": {
+    "esm": true
+  },
+  "include": ["./client/src/**/*", "webpack.config.ts"],
+  "exclude": ["node_modules", "dist"]
 }
