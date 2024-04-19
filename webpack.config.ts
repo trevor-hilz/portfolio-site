@@ -1,11 +1,17 @@
 import path from 'path';
 import webpack from 'webpack';
-import 'webpack-dev-server'; // Import this to ensure types are recognized
+import 'webpack-dev-server';
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config: webpack.Configuration = {
   mode: 'development', // or 'production'
   entry: './client/src/Index.tsx',
   devtool: 'inline-source-map',
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: './client/public/index.html',
+    }),
+  ],
   module: {
     rules: [
       {

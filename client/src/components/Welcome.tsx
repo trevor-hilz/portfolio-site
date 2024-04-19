@@ -1,12 +1,7 @@
 import React from 'react';
 
 const Welcome = () => {
-  return(
-    <div>
-    
-    </div>
-  );
+  return <div>Bonjour!</div>;
 };
-
 
 export default Welcome;
