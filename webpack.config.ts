@@ -5,7 +5,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 const config: webpack.Configuration = {
   mode: 'development', // or 'production'
-  entry: './client/src/Index.tsx',
+  entry: './client/src/index.tsx',
   devtool: 'inline-source-map',
   plugins: [
     new HtmlWebpackPlugin({
@@ -28,6 +28,19 @@ const config: webpack.Configuration = {
           },
         },
         exclude: /node_modules/,
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        use: [
+          {
+            loader: 'file-loader',
+            options: {
+              outputPath: 'images', // where the images will go under the output directory
+              publicPath: 'images', // path used to generate URLs to the images
+              name: '[name].[ext]', // retain original file names
+            },
+          },
+        ],
       },
     ],
   },

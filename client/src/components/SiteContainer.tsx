@@ -1,15 +1,15 @@
 import React from 'react';
 import Photo from './Photo';
 import Summary from './Summary';
+import { Box } from '@mui/material';
 
-const siteContainer = () => {
+const SiteContainer = () => {
   return (
-    <div>
-      Site Container.
+    <Box display='flex' flexDirection='column'>
       <Photo />
       <Summary />
-    </div>
+    </Box>
   );
 };
 
-export default siteContainer;
+export default SiteContainer;

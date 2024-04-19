@@ -16,6 +16,6 @@
   "ts-node": {
     "esm": true
   },
-  "include": ["./client/src/**/*", "webpack.config.ts"],
+  "include": ["./client/src/**/*", "webpack.config.ts", "custom.d.ts"],
   "exclude": ["node_modules", "dist"]
 }
