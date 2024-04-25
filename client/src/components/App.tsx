@@ -1,5 +1,4 @@
 import React from 'react';
-import { createRoot } from 'react-dom/client';
 import SiteContainer from './SiteContainer';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
@@ -14,6 +13,8 @@ const App = () => {
           sx={{
             bgcolor: 'primary.main',
             color: 'white',
+            height: '100vh',
+            width: '100vw',
           }}
         >
           <SiteContainer />
