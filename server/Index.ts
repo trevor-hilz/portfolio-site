@@ -6,7 +6,7 @@ import { dirname } from 'path';
 
 app.use(express.json());
 
-// app.use(express.static(path.join(__dirname, '../client/src/')));
+app.use(express.static(path.join(__dirname, '../client/src/')));
 
 app.get('/', (req, res) => {
   return res.sendFile(path.resolve(__dirname, '../client/src/'));

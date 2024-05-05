@@ -1,6 +1,5 @@
-import React from 'react';
 import SiteContainer from './SiteContainer';
-import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { ThemeProvider } from '@mui/material/styles';
 import Button from '@mui/material/Button';
 import { Box, CssBaseline } from '@mui/material';
 import theme from '../styles/theme';
