@@ -4,12 +4,22 @@ import Photo from './Photo';
 
 const Welcome = () => {
   return (
-    <Box sx={{display: 'flex', justifyContent: 'center'}}>
+    <Box
+      sx={{
+        display: 'flex',
+        justifyContent: 'center',
+        alignItems: 'center',
+      }}
+    >
       <Photo />
-    <Box >
-      <Box fontSize='2.5em'>Trevor Hilz | Software Engineer</Box>
-      <Box fontSize='1em' paddingLeft='1em'>Full-Stack . JavaScript . Java . React . Node.js . RestAPI / gRPC</Box>
-    </Box>
+      <Box>
+        <Box sx={{ fontSize: '2.5em', paddingLeft: '2em' }}>
+          Trevor Hilz | Software Engineer
+        </Box>
+        <Box fontSize='1em' paddingLeft='6em'>
+          Full-Stack . JavaScript . React . Node.js . RestAPI
+        </Box>
+      </Box>
     </Box>
   );
 };

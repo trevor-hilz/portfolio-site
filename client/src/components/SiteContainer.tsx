@@ -7,7 +7,7 @@ import { Box } from '@mui/material';
 const SiteContainer = () => {
   return (
     <Box display='flex' flexDirection='column'>
-      <Box margin='auto' paddingTop='5vh' paddingBottom='5vh'>
+      <Box margin='auto' paddingTop='5vh' paddingBottom='5vh' marginTop='8em'>
         <Welcome />
       </Box>
       <MainContent />

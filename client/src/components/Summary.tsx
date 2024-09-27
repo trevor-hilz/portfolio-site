@@ -2,7 +2,7 @@ import { Box } from '@mui/material';
 
 const summary = () => {
   return (
-    <Box sx={{ maxWidth: '35%', margin: 'auto', paddingTop: '3em' }}>
+    <Box sx={{ maxWidth: '35%' }}>
       <Box>
         I'm Trevor, a full-stack software engineer with a driving passion when
         it comes to creating web sites and applications. During the day (and
@@ -17,6 +17,7 @@ const summary = () => {
         programming languages and technologies, playing games with friends, and
         watching car racing.
       </Box>
+      <Box>Postgres</Box>
     </Box>
   );
 };

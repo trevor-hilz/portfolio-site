@@ -1,13 +1,7 @@
-import React from 'react';
-import unicorn from '../assets/unicorn.jpg';
+import unicorn from '../assets/headshot.jpg';
 
 const Photo = () => {
-  return (
-    <img
-      src={unicorn}
-      style={{ width: '18%', borderRadius: '15%', margin: 'auto' }}
-    />
-  );
+  return <img src={unicorn} style={{ width: '14%', borderRadius: '50%' }} />;
 };
 
 export default Photo;
