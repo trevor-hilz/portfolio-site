@@ -4,10 +4,12 @@ import MainContent from './MainContent';
 
 const SiteContainer = () => {
   return (
-    <div>
+    <div className='flex flex-col min-h-screen justify-between'>
       <Welcome />
       <MainContent />
-      <Footer />
+      <div className='flex-grow flex flex-col items-center justify-end'>
+        <Footer />
+      </div>
     </div>
   );
 };

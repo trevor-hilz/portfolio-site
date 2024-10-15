@@ -4,7 +4,7 @@ import JobHistory from './JobHistory';
 
 const MainContent = () => {
   return (
-    <div>
+    <div className='flex flex-col justify-center'>
       <Summary />
       <JobHistory />
     </div>
