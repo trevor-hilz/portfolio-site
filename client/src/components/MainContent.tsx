@@ -1,22 +1,13 @@
-import React from 'react';
+import Header from './Header';
 import Summary from './Summary';
 import JobHistory from './JobHistory';
-import { Box } from '@mui/material';
 
 const MainContent = () => {
   return (
-    <Box
-      sx={{
-        display: 'flex',
-        justifyContent: 'center',
-        maxWidth: '50%',
-        gap: '6em',
-        margin: 'auto',
-      }}
-    >
-      <JobHistory />
+    <div>
       <Summary />
-    </Box>
+      <JobHistory />
+    </div>
   );
 };
 

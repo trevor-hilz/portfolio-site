@@ -1,12 +1,17 @@
-/* CSS reset to remove default margins and padding */
 html,
 body,
 #root {
-  margin: 0;
-  padding: 0;
-  width: 100%;
   height: 100%;
-  background-color: #121212; /* Set the background color here as well */
+  margin: 0;
+  background-color: #212121; /* Set the background color here as well */
   overflow: hidden; /* Prevent scrollbars */
 }
 
+.App {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 960px;
+  margin: auto;
+  background-color: blue;
+}

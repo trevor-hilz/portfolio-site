@@ -52,9 +52,15 @@ const config: webpack.Configuration = {
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
+    static: [
+      {
+        directory: path.join(__dirname, 'dist'),
+      },
+      {
+        directory: path.join(__dirname, 'client/src/styles'), // Serve files from dist directory for JS
+      },
+    ],
+
     compress: true,
     port: 9000,
   },
