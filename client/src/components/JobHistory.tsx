@@ -1,8 +1,6 @@
 const JobHistory = () => {
   return (
     <div className='ml-8'>
-      <h1>Work Experience</h1>
-      <br></br>
       <li className='list-none'>
         <span className='underline'>
           {' '}
@@ -20,7 +18,7 @@ const JobHistory = () => {
       <header className='underline'>Open Source</header>
       <br></br>
       <header className='underline'>
-        Nemo (Open Source) | Software Engineer | A Kubernetes Monitoring Tool |
+        Nemo | Software Engineer | A Kubernetes Monitoring Tool |
         nemonitoring.com 2023 – 2024
       </header>
       <li className='mb-2 ml-8 list-none'>
