@@ -1,25 +1,26 @@
 const JobHistory = () => {
   return (
-    <div className='ml-8'>
-      <li className='list-none'>
-        <span className='underline'>
-          {' '}
-          Binary Artisan (Contract) | Software Engineer | 2024 – 2024
-        </span>
-      </li>
-      <li className='ml-8 list-none'>
-        Co-engineered a TypeScript card counting training application
-      </li>
-      <li className='ml-8 list-none'>
-        Designed a responsive UI using React with Astro frameworks, improving
-        loading and user satisfaction on multiple devices
-      </li>
+    <div className='p-6 ml-8 bg-orange-700 border-blue-200 rounded-lg '>
+      <div className='flex flex-col p-2 bg-blue-900 border-4 border-blue-200 rounded-lg'>
+        <li className='list-none'>
+          <span className='text-lg font-bold underline'>
+            {' '}
+            Binary Artisan (Contract) | 2024 – 2024
+          </span>
+        </li>
+        <li className='ml-8 list-none'>
+          Co-engineered a TypeScript card counting training application
+        </li>
+        <li className='ml-8 list-none'>
+          Designed a responsive UI using React with Astro frameworks, improving
+          loading and user satisfaction on multiple devices
+        </li>
+      </div>
       <br></br>
-      <header className='underline'>Open Source</header>
+      <header className='text-xl font-bold underline'>Open Source</header>
       <br></br>
-      <header className='underline'>
-        Nemo | Software Engineer | A Kubernetes Monitoring Tool |
-        nemonitoring.com 2023 – 2024
+      <header className='text-base font-bold underline'>
+        Nemo | A Kubernetes Monitoring Tool | nemonitoring.com | 2023 – 2024
       </header>
       <li className='mb-2 ml-8 list-none'>
         Engineered the GKE Kubernetes cluster data scraping of cluster data from
@@ -54,9 +55,11 @@ const JobHistory = () => {
         controllers
       </li>
       <br></br>
-      <li className='underline list-none'>
+      <header className='text-xl font-bold underline'>Other Experience</header>
+      <br></br>
+      <li className='text-base font-bold underline list-none'>
         Texas Capital Bank, JP Morgan Chase, Fidelity Investments | Banking &
-        Wealth Management 2014 – 2023
+        Wealth Management | 2014 – 2023
       </li>
       <li className='ml-8 list-none'>
         Analyzed financial data using Bloomberg and Morningstar, supporting
