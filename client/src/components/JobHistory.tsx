@@ -1,7 +1,7 @@
 const JobHistory = () => {
   return (
-    <div className='p-6 ml-8 bg-orange-700 border-blue-200 rounded-lg '>
-      <div className='flex flex-col p-2 bg-blue-900 border-4 border-blue-200 rounded-lg'>
+    <div className='p-6 ml-8 '>
+      <div className='flex flex-col p-2'>
         <li className='list-none'>
           <span className='text-lg font-bold underline'>
             {' '}
