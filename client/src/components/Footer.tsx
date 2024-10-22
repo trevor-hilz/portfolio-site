@@ -2,8 +2,8 @@ import unicorn from '../assets/unicorn.jpg';
 
 const Footer = () => {
   return (
-    <div className='w-full max-w-screen-xl p-4 mx-auto md:py-8'>
-      <div className='sm:flex sm:items-center sm:justify-center'>
+    <div className='w-full max-w-screen-xl p-4 mx-auto '>
+      <div className='flex items-center justify-center'>
         {/* <a
           href='https://linkedin.com/in/trevor-hilz'
           target='_blank'
@@ -53,8 +53,8 @@ const Footer = () => {
           </li>
         </ul>
       </div>
-      <hr className='my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8' />
-      <span className='block text-sm text-gray-500 sm:text-center dark:text-gray-400'>
+      <hr className='border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-4' />
+      <span className='block text-sm text-center text-gray-500 dark:text-gray-400'>
         &#169; Trevor Hilz 2024 | All Rights Reserved.
       </span>
     </div>
