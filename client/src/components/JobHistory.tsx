@@ -1,6 +1,6 @@
 const JobHistory = () => {
   return (
-    <div className='flex flex-col items-center list-none '>
+    <div className='flex flex-col items-center text-center list-none'>
       <div className='text-xl font-bold underline'>
         Software Engineer | 2023 - 2024
       </div>
