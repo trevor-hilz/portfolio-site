@@ -15,6 +15,14 @@ const config: webpack.Configuration = {
   module: {
     rules: [
       {
+        test: /\.css$/,
+        use: [
+          'style-loader', // Injects CSS into the DOM
+          'css-loader', // Turns CSS into CommonJS
+          'postcss-loader', // Processes Tailwind and other PostCSS plugins
+        ],
+      },
+      {
         test: /\.tsx?$/,
         use: 'ts-loader',
         exclude: /node_modules/,
@@ -52,9 +60,7 @@ const config: webpack.Configuration = {
     path: path.resolve(__dirname, 'dist'),
   },
   devServer: {
-    static: {
-      directory: path.join(__dirname, 'dist'),
-    },
+    static: path.join(__dirname, 'dist'),
     compress: true,
     port: 9000,
   },

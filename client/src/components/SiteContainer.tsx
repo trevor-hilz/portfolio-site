@@ -1,18 +1,16 @@
-import Summary from './Summary';
-import Welcome from './Welcome';
+import Header from './Header';
 import Footer from './Footer';
 import MainContent from './MainContent';
-import { Box } from '@mui/material';
 
 const SiteContainer = () => {
   return (
-    <Box display='flex' flexDirection='column'>
-      <Box margin='auto' paddingTop='5vh' paddingBottom='5vh'>
-        <Welcome />
-      </Box>
+    <div className='flex flex-col justify-between min-h-screen'>
+      <Header />
       <MainContent />
-      <Footer />
-    </Box>
+      <div className='flex flex-col items-center justify-end flex-grow'>
+        <Footer />
+      </div>
+    </div>
   );
 };
 

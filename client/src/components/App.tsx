@@ -1,25 +1,13 @@
 import SiteContainer from './SiteContainer';
-import { ThemeProvider } from '@mui/material/styles';
-import Button from '@mui/material/Button';
-import { Box, CssBaseline } from '@mui/material';
-import theme from '../styles/theme';
+import '../styles/index.css';
+import space from '../assets/space.jpg';
 
 const App = () => {
   return (
-    <ThemeProvider theme={theme}>
-      <CssBaseline>
-        <Box
-          sx={{
-            bgcolor: 'primary.main',
-            color: 'white',
-            height: '100vh',
-            width: '100vw',
-          }}
-        >
-          <SiteContainer />
-        </Box>
-      </CssBaseline>
-    </ThemeProvider>
+    <div className='bg-[#dddddd] max-w-screen-lg m-auto min-h-screen'>
+      {/* // <div className='max-w-screen-lg bg-center bg-cover bg-space'> */}
+      <SiteContainer />
+    </div>
   );
 };
 
