@@ -8,9 +8,7 @@ const Welcome = () => {
       <div>
         <li className='list-none hover:animate-pulse'>Software Engineer</li>
         <li className='list-none hover:animate-pulse'>Gamer Dad</li>
-        <li className='list-none hover:animate-pulse'>
-          Unofficial Food Critic
-        </li>
+        <li className='list-none hover:animate-pulse'>Automotive Enthusiast</li>
       </div>
     </div>
   );
