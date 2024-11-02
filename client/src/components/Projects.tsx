@@ -4,7 +4,7 @@ const Projects = () => {
       <div className='text-xl font-bold underline'>Works</div>
       <div className='flex gap-4'>
         <a
-          href='http://biodiversity-app-env-1.eba-d5psxzae.us-east-2.elasticbeanstalk.com/'
+          href='https://www.datadiversities.org'
           target='_blank'
           rel='noopener noreferrer'
         >
