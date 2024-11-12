@@ -7,7 +7,22 @@ body,
 #root {
   height: 100%;
   margin: 0;
-  background-color: #ffffff;
+  background-color: #212121;
   /* overflow: hidden; Prevent scrollbars */
-  color: #383838;
+  color: #adadad;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 1.7s ease-out forwards;
 }

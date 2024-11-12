@@ -4,8 +4,7 @@ import space from '../assets/space.jpg';
 
 const App = () => {
   return (
-    <div className='bg-[#dddddd] max-w-screen-lg m-auto min-h-screen'>
-      {/* // <div className='max-w-screen-lg bg-center bg-cover bg-space'> */}
+    <div className='bg-[#000000] max-w-screen-lg m-auto min-h-screen animate-slide-in-left'>
       <SiteContainer />
     </div>
   );
