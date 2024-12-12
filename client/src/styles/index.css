@@ -7,9 +7,9 @@ body,
 #root {
   height: 100%;
   margin: 0;
-  background-color: #212121;
+  background-color: #ffffff;
   /* overflow: hidden; Prevent scrollbars */
-  color: #adadad;
+  color: #000000;
 }
 
 @keyframes slideInLeft {

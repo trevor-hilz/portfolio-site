@@ -1,6 +1,6 @@
 const summary = () => {
   return (
-    <div className='max-w-screen-md p-6 mb-6 border-4 border-white rounded-xl'>
+    <div className='max-w-screen-md p-6 mb-6'>
       I'm Trevor, a full-stack software engineer with a deep passion for
       building intuitive websites and applications. Whether it's day or night,
       you'll find me coding with my headset on or collaborating with colleagues

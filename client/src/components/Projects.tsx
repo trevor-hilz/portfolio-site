@@ -4,7 +4,7 @@ const Projects = () => {
       <div className='text-xl font-bold underline'>Works</div>
       <div className='flex gap-4'>
         <a href='datadiversities.org' target='_blank' rel='noopener noreferrer'>
-          <button className='px-4 py-2 font-bold text-black bg-green-500 rounded hover:bg-green-700'>
+          <button className='px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700'>
             NYS Biodiversity
           </button>
         </a>
@@ -13,7 +13,7 @@ const Projects = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <button className='px-4 py-2 font-bold text-black bg-green-500 rounded hover:bg-green-700'>
+          <button className='px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700'>
             Count Your Cards
           </button>
         </a>
@@ -22,7 +22,7 @@ const Projects = () => {
           target='_blank'
           rel='noopener noreferrer'
         >
-          <button className='px-4 py-2 font-bold text-black bg-green-500 rounded hover:bg-green-700'>
+          <button className='px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700'>
             Nemo Monitoring
           </button>
         </a>
