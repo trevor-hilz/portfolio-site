@@ -2,10 +2,11 @@ const JobHistory = () => {
   return (
     <div className='flex flex-col items-center text-center list-none'>
       <div className='text-xl font-bold underline'>
-        Software Engineer | 2023 - 2024
+        Software Engineering | 2023 - 2024
       </div>
+      <li>Outlier.ai (Contract) | Advanced Coder | 2024 – 2024</li>
       <li>
-        Binary Artisan (Contract) | 2024 – 2024 |{' '}
+        Binary Artisan (Contract) | Software Engineer | 2024 | {''}
         <a
           href='https://www.countyourcards.com/'
           target='_blank'
@@ -16,7 +17,7 @@ const JobHistory = () => {
         </a>
       </li>
       <li className='mt-4 text-lg font-bold underline'>
-        Open Source Project | 2023 – 2024
+        Open Source & Projects | 2023 – 2024
       </li>
       <li>
         {' '}

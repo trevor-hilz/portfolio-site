@@ -9,5 +9,20 @@ body,
   margin: 0;
   background-color: #ffffff;
   /* overflow: hidden; Prevent scrollbars */
-  color: #383838;
+  color: #000000;
+}
+
+@keyframes slideInLeft {
+  from {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-in-left {
+  animation: slideInLeft 1.7s ease-out forwards;
 }
