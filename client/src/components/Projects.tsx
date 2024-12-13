@@ -3,7 +3,11 @@ const Projects = () => {
     <div className='flex flex-col items-center gap-4 mb-8'>
       <div className='text-xl font-bold underline'>Works</div>
       <div className='flex gap-4'>
-        <a href='datadiversities.org' target='_blank' rel='noopener noreferrer'>
+        <a
+          href='http://datadiversities.org'
+          target='_blank'
+          rel='noopener noreferrer'
+        >
           <button className='px-4 py-2 font-bold text-white bg-blue-500 rounded hover:bg-blue-700'>
             NYS Biodiversity
           </button>
